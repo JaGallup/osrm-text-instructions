@@ -130,44 +130,44 @@
         "continue": {
             "default": {
                 "default": "{modifier:turn}",
-                "name": "{modifier:turn} videre ad {way_name}",
+                "name": "{modifier:turn} videre inn á {way_name:accusative}",
                 "destination": "{modifier:turn} í átt að {destination:dative}",
-                "exit": "{modifier:turn} ad {way_name}"
+                "exit": "{modifier:turn} inn á {way_name:accusative}"
             },
             "straight": {
-                "default": "Fortsæt beint",
-                "name": "Fortsæt beint ad {way_name}",
-                "destination": "Fortsæt í átt að {destination:dative}",
-                "distance": "Fortsæt {distance} beint",
-                "namedistance": "Fortsæt {distance} ad {way_name}"
+                "default": "Haltu áfram beint",
+                "name": "Haltu áfram beint inn á {way_name:accusative}",
+                "destination": "Haltu áfram í átt að {destination:dative}",
+                "distance": "Haltu áfram {distance} beint",
+                "namedistance": "Haltu áfram {distance} inn á {way_name:accusative}"
             },
             "sharp left": {
                 "default": "Beygðu skarpt til vinstri",
-                "name": "Beygðu skarpt til vinstri videre ad {way_name}",
+                "name": "Beygðu skarpt til vinstri videre inn á {way_name:accusative}",
                 "destination": "Beygðu skarpt til vinstri í átt að {destination:dative}",
                 "junction_name": "Beygðu skarpt til vinstri videre ved {junction_name}"
             },
             "sharp right": {
                 "default": "Beygðu skarpt til hægri",
-                "name": "Beygðu skarpt til hægri videre ad {way_name}",
+                "name": "Beygðu skarpt til hægri videre inn á {way_name:accusative}",
                 "destination": "Beygðu skarpt til hægri í átt að {destination:dative}",
                 "junction_name": "Beygðu skarpt til hægri videre ved {junction_name}"
             },
             "slight left": {
                 "default": "Beygðu let til vinstri",
-                "name": "Beygðu let til vinstri videre ad {way_name}",
+                "name": "Beygðu let til vinstri videre inn á {way_name:accusative}",
                 "destination": "Beygðu let til vinstri í átt að {destination:dative}",
                 "junction_name": "Beygðu let til vinstri videre ved {junction_name}"
             },
             "slight right": {
                 "default": "Beygðu let til hægri",
-                "name": "Beygðu let til hægri videre ad {way_name}",
+                "name": "Beygðu let til hægri videre inn á {way_name:accusative}",
                 "destination": "Beygðu let til hægri í átt að {destination:dative}",
                 "junction_name": "Beygðu let til hægri videre ved {junction_name}"
             },
             "uturn": {
                 "default": "Foretag en U-vending",
-                "name": "Foretag en U-vending tilbage ad {way_name}",
+                "name": "Foretag en U-vending tilbage inn á {way_name:accusative}",
                 "destination": "Foretag en U-vending í átt að {destination:dative}",
                 "junction_name": "Foretag en U-vending tilbage ved {junction_name}"
             }
@@ -182,19 +182,19 @@
         "end of road": {
             "default": {
                 "default": "{modifier:turn}",
-                "name": "{modifier:turn} ad {way_name}",
+                "name": "{modifier:turn} inn á {way_name:accusative}",
                 "destination": "{modifier:turn} í átt að {destination:dative}",
                 "junction_name": "{modifier:turn} ved {junction_name}"
             },
             "straight": {
-                "default": "Fortsæt beint",
-                "name": "Fortsæt beint ad {way_name}",
-                "destination": "Fortsæt beint í átt að {destination:dative}",
-                "junction_name": "Fortsæt beint ved {junction_name}"
+                "default": "Haltu áfram beint",
+                "name": "Haltu áfram beint inn á {way_name:accusative}",
+                "destination": "Haltu áfram beint í átt að {destination:dative}",
+                "junction_name": "Haltu áfram beint ved {junction_name}"
             },
             "uturn": {
                 "default": "Foretag en U-vending for enden af vejen",
-                "name": "Foretag en U-vending ad {way_name} for enden af vejen",
+                "name": "Foretag en U-vending inn á {way_name:accusative} for enden af vejen",
                 "destination": "Foretag en U-vending í átt að {destination:dative} for enden af vejen",
                 "junction_name": "Foretag en U-vending ved {junction_name}"
             }
@@ -217,24 +217,24 @@
             },
             "sharp left": {
                 "default": "Beygðu skarpt til vinstri ved udfletningen",
-                "name": "Beygðu skarpt til vinstri ad {way_name}",
+                "name": "Beygðu skarpt til vinstri inn á {way_name:accusative}",
                 "destination": "Beygðu skarpt til vinstri í átt að {destination:dative}"
             },
             "sharp right": {
                 "default": "Beygðu skarpt til hægri ved udfletningen",
-                "name": "Beygðu skarpt til hægri ad {way_name}",
+                "name": "Beygðu skarpt til hægri inn á {way_name:accusative}",
                 "destination": "Beygðu skarpt til hægri í átt að {destination:dative}"
             },
             "uturn": {
                 "default": "Foretag en U-vending",
-                "name": "Foretag en U-vending ad {way_name}",
+                "name": "Foretag en U-vending inn á {way_name:accusative}",
                 "destination": "Foretag en U-vending í átt að {destination:dative}"
             }
         },
         "merge": {
             "default": {
                 "default": "Flet {modifier}",
-                "name": "Flet {modifier} ad {way_name}",
+                "name": "Flet {modifier} inn á {way_name:accusative}",
                 "destination": "Flet {modifier} í átt að {destination:dative}"
             },
             "straight": {
@@ -243,126 +243,126 @@
                 "destination": "Flet ind í átt að {destination:dative}"
             },
             "slight left": {
-                "default": "Flet til vinstri",
-                "name": "Flet til vinstri ad {way_name}",
-                "destination": "Flet til vinstri í átt að {destination:dative}"
+                "default": "Hliðraðu þér til vinstri",
+                "name": "Hliðraðu þér til vinstri inn á {way_name:accusative}",
+                "destination": "Hliðraðu þér til vinstri í átt að {destination:dative}"
             },
             "slight right": {
-                "default": "Flet til hægri",
-                "name": "Flet til hægri ad {way_name}",
-                "destination": "Flet til hægri í átt að {destination:dative}"
+                "default": "Hliðraðu þér til hægri",
+                "name": "Hliðraðu þér til hægri inn á {way_name:accusative}",
+                "destination": "Hliðraðu þér til hægri í átt að {destination:dative}"
             },
             "sharp left": {
-                "default": "Flet til vinstri",
-                "name": "Flet til vinstri ad {way_name}",
-                "destination": "Flet til vinstri í átt að {destination:dative}"
+                "default": "Hliðraðu þér til vinstri",
+                "name": "Hliðraðu þér til vinstri inn á {way_name:accusative}",
+                "destination": "Hliðraðu þér til vinstri í átt að {destination:dative}"
             },
             "sharp right": {
-                "default": "Flet til hægri",
-                "name": "Flet til hægri ad {way_name}",
-                "destination": "Flet til hægri í átt að {destination:dative}"
+                "default": "Hliðraðu þér til hægri",
+                "name": "Hliðraðu þér til hægri inn á {way_name:accusative}",
+                "destination": "Hliðraðu þér til hægri í átt að {destination:dative}"
             },
             "uturn": {
                 "default": "Foretag en U-vending",
-                "name": "Foretag en U-vending ad {way_name}",
+                "name": "Foretag en U-vending inn á {way_name:accusative}",
                 "destination": "Foretag en U-vending í átt að {destination:dative}"
             }
         },
         "new name": {
             "default": {
-                "default": "Fortsæt {modifier}",
-                "name": "Fortsæt {modifier} ad {way_name}",
-                "destination": "Fortsæt {modifier} í átt að {destination:dative}"
+                "default": "Haltu áfram {modifier}",
+                "name": "Haltu áfram {modifier} inn á {way_name:accusative}",
+                "destination": "Haltu áfram {modifier} í átt að {destination:dative}"
             },
             "straight": {
-                "default": "Fortsæt beint",
-                "name": "Fortsæt ad {way_name}",
-                "destination": "Fortsæt í átt að {destination:dative}"
+                "default": "Haltu áfram beint",
+                "name": "Haltu áfram inn á {way_name:accusative}",
+                "destination": "Haltu áfram í átt að {destination:dative}"
             },
             "sharp left": {
                 "default": "Beygðu skarpt til vinstri",
-                "name": "Beygðu skarpt til vinstri ad {way_name}",
+                "name": "Beygðu skarpt til vinstri inn á {way_name:accusative}",
                 "destination": "Beygðu skarpt til vinstri í átt að {destination:dative}"
             },
             "sharp right": {
                 "default": "Beygðu skarpt til hægri",
-                "name": "Beygðu skarpt til hægri ad {way_name}",
+                "name": "Beygðu skarpt til hægri inn á {way_name:accusative}",
                 "destination": "Beygðu skarpt til hægri í átt að {destination:dative}"
             },
             "slight left": {
-                "default": "Fortsæt til vinstri",
-                "name": "Fortsæt til vinstri ad {way_name}",
-                "destination": "Fortsæt til vinstri í átt að {destination:dative}"
+                "default": "Haltu áfram til vinstri",
+                "name": "Haltu áfram til vinstri inn á {way_name:accusative}",
+                "destination": "Haltu áfram til vinstri í átt að {destination:dative}"
             },
             "slight right": {
-                "default": "Fortsæt til hægri",
-                "name": "Fortsæt til hægri ad {way_name}",
-                "destination": "Fortsæt til hægri í átt að {destination:dative}"
+                "default": "Haltu áfram til hægri",
+                "name": "Haltu áfram til hægri inn á {way_name:accusative}",
+                "destination": "Haltu áfram til hægri í átt að {destination:dative}"
             },
             "uturn": {
                 "default": "Foretag en U-vending",
-                "name": "Foretag en U-vending ad {way_name}",
+                "name": "Foretag en U-vending inn á {way_name:accusative}",
                 "destination": "Foretag en U-vending í átt að {destination:dative}"
             }
         },
         "notification": {
             "default": {
-                "default": "Fortsæt {modifier}",
-                "name": "Fortsæt {modifier} ad {way_name}",
-                "destination": "Fortsæt {modifier} í átt að {destination:dative}"
+                "default": "Haltu áfram {modifier}",
+                "name": "Haltu áfram {modifier} inn á {way_name:accusative}",
+                "destination": "Haltu áfram {modifier} í átt að {destination:dative}"
             },
             "uturn": {
                 "default": "Foretag en U-vending",
-                "name": "Foretag en U-vending ad {way_name}",
+                "name": "Foretag en U-vending inn á {way_name:accusative}",
                 "destination": "Foretag en U-vending í átt að {destination:dative}"
             }
         },
         "off ramp": {
             "default": {
                 "default": "Taktu afleggjarann",
-                "name": "Taktu afleggjarann ad {way_name}",
+                "name": "Taktu afleggjarann inn á {way_name:accusative}",
                 "destination": "Taktu afleggjarann í átt að {destination:dative}",
-                "exit": "Tag afkørsel {exit}",
-                "exit_destination": "Tag afkørsel {exit} í átt að {destination:dative}"
+                "exit": "Taktu afleggjarann {exit}",
+                "exit_destination": "Taktu afleggjarann {exit} í átt að {destination:dative}"
             },
             "left": {
                 "default": "Taktu afleggjarann til vinstri",
-                "name": "Taktu afleggjarann til vinstri ad {way_name}",
+                "name": "Taktu afleggjarann til vinstri inn á {way_name:accusative}",
                 "destination": "Taktu afleggjarann til vinstri í átt að {destination:dative}",
                 "exit": "Tag afkørsel {exit} til vinstri",
                 "exit_destination": "Tag afkørsel {exit} til vinstri í átt að {destination:dative}"
             },
             "right": {
                 "default": "Taktu afleggjarann til hægri",
-                "name": "Taktu afleggjarann til hægri ad {way_name}",
+                "name": "Taktu afleggjarann til hægri inn á {way_name:accusative}",
                 "destination": "Taktu afleggjarann til hægri í átt að {destination:dative}",
                 "exit": "Tag afkørsel {exit} til hægri",
                 "exit_destination": "Tag afkørsel {exit} til hægri í átt að {destination:dative}"
             },
             "sharp left": {
                 "default": "Taktu afleggjarann til vinstri",
-                "name": "Taktu afleggjarann til vinstri ad {way_name}",
+                "name": "Taktu afleggjarann til vinstri inn á {way_name:accusative}",
                 "destination": "Taktu afleggjarann til vinstri í átt að {destination:dative}",
                 "exit": "Tag afkørsel {exit} til vinstri",
                 "exit_destination": "Tag afkørsel {exit} til vinstri í átt að {destination:dative}"
             },
             "sharp right": {
                 "default": "Taktu afleggjarann til hægri",
-                "name": "Taktu afleggjarann til hægri ad {way_name}",
+                "name": "Taktu afleggjarann til hægri inn á {way_name:accusative}",
                 "destination": "Taktu afleggjarann til hægri í átt að {destination:dative}",
                 "exit": "Tag afkørsel {exit} til hægri",
                 "exit_destination": "Tag afkørsel {exit} til hægri í átt að {destination:dative}"
             },
             "slight left": {
                 "default": "Taktu afleggjarann til vinstri",
-                "name": "Taktu afleggjarann til vinstri ad {way_name}",
+                "name": "Taktu afleggjarann til vinstri inn á {way_name:accusative}",
                 "destination": "Taktu afleggjarann til vinstri í átt að {destination:dative}",
                 "exit": "Tag afkørsel {exit} til vinstri",
                 "exit_destination": "Tag afkørsel {exit} til vinstri í átt að {destination:dative}"
             },
             "slight right": {
                 "default": "Taktu afleggjarann til hægri",
-                "name": "Taktu afleggjarann til hægri ad {way_name}",
+                "name": "Taktu afleggjarann til hægri inn á {way_name:accusative}",
                 "destination": "Taktu afleggjarann til hægri í átt að {destination:dative}",
                 "exit": "Tag afkørsel {exit} til hægri",
                 "exit_destination": "Tag afkørsel {exit} til hægri í átt að {destination:dative}"
@@ -371,37 +371,37 @@
         "on ramp": {
             "default": {
                 "default": "Taktu afleggjarann",
-                "name": "Taktu afleggjarann ad {way_name}",
+                "name": "Taktu afleggjarann inn á {way_name:accusative}",
                 "destination": "Taktu afleggjarann í átt að {destination:dative}"
             },
             "left": {
                 "default": "Taktu afleggjarann til vinstri",
-                "name": "Taktu afleggjarann til vinstri ad {way_name}",
+                "name": "Taktu afleggjarann til vinstri inn á {way_name:accusative}",
                 "destination": "Taktu afleggjarann til vinstri í átt að {destination:dative}"
             },
             "right": {
                 "default": "Taktu afleggjarann til hægri",
-                "name": "Taktu afleggjarann til hægri ad {way_name}",
+                "name": "Taktu afleggjarann til hægri inn á {way_name:accusative}",
                 "destination": "Taktu afleggjarann til hægri í átt að {destination:dative}"
             },
             "sharp left": {
                 "default": "Taktu afleggjarann til vinstri",
-                "name": "Taktu afleggjarann til vinstri ad {way_name}",
+                "name": "Taktu afleggjarann til vinstri inn á {way_name:accusative}",
                 "destination": "Taktu afleggjarann til vinstri í átt að {destination:dative}"
             },
             "sharp right": {
                 "default": "Taktu afleggjarann til hægri",
-                "name": "Taktu afleggjarann til hægri ad {way_name}",
+                "name": "Taktu afleggjarann til hægri inn á {way_name:accusative}",
                 "destination": "Taktu afleggjarann til hægri í átt að {destination:dative}"
             },
             "slight left": {
                 "default": "Taktu afleggjarann til vinstri",
-                "name": "Taktu afleggjarann til vinstri ad {way_name}",
+                "name": "Taktu afleggjarann til vinstri inn á {way_name:accusative}",
                 "destination": "Taktu afleggjarann til vinstri í átt að {destination:dative}"
             },
             "slight right": {
                 "default": "Taktu afleggjarann til hægri",
-                "name": "Taktu afleggjarann til hægri ad {way_name}",
+                "name": "Taktu afleggjarann til hægri inn á {way_name:accusative}",
                 "destination": "Taktu afleggjarann til hægri í átt að {destination:dative}"
             }
         },
@@ -432,9 +432,9 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Taktu {exit_number} beyju út af hringtorginu",
-                    "name": "Taktu {exit_number} beyju út af hringtorginu inn á {way_name:accusative}",
-                    "destination": "Taktu {exit_number} beyju út af hringtorginu í átt að {destination:dative}"
+                    "default": "Taktu {exit_number} beygju út af hringtorginu",
+                    "name": "Taktu {exit_number} beygju út af hringtorginu inn á {way_name:accusative}",
+                    "destination": "Taktu {exit_number} beygju út af hringtorginu í átt að {destination:dative}"
                 },
                 "default": {
                     "default": "Keyrðu inn á hringtorgið",
@@ -446,23 +446,23 @@
         "roundabout turn": {
             "default": {
                 "default": "{modifier:turn}",
-                "name": "{modifier:turn} ad {way_name}",
+                "name": "{modifier:turn} inn á {way_name:accusative}",
                 "destination": "{modifier:turn} í átt að {destination:dative}"
             },
             "left": {
                 "default": "Beygðu til vinstri",
-                "name": "Beygðu til vinstri ad {way_name}",
+                "name": "Beygðu til vinstri inn á {way_name:accusative}",
                 "destination": "Beygðu til vinstri í átt að {destination:dative}"
             },
             "right": {
                 "default": "Beygðu til hægri",
-                "name": "Beygðu til hægri ad {way_name}",
+                "name": "Beygðu til hægri inn á {way_name:accusative}",
                 "destination": "Beygðu til hægri í átt að {destination:dative}"
             },
             "straight": {
-                "default": "Fortsæt beint",
-                "name": "Fortsæt beint ad {way_name}",
-                "destination": "Fortsæt beint í átt að {destination:dative}"
+                "default": "Haltu áfram beint",
+                "name": "Haltu áfram beint inn á {way_name:accusative}",
+                "destination": "Haltu áfram beint í átt að {destination:dative}"
             }
         },
         "exit roundabout": {
@@ -482,7 +482,7 @@
         "turn": {
             "default": {
                 "default": "{modifier:turn}",
-                "name": "{modifier:turn} ad {way_name}",
+                "name": "{modifier:turn} inn á {way_name:accusative}",
                 "destination": "{modifier:turn} í átt að {destination:dative}",
                 "junction_name": "{modifier:turn} ved {junction_name}"
             },
@@ -500,14 +500,14 @@
             },
             "straight": {
                 "default": "Keyrðu beint",
-                "name": "Keyrðu bein inn á {way_name:accusative}",
+                "name": "Keyrðu beint inn á {way_name:accusative}",
                 "destination": "Keyrðu beint í átt að {destination:dative}",
                 "junction_name": "Keyrðu beint á {junction_name:dative}"
             }
         },
         "use lane": {
             "no_lanes": {
-                "default": "Fortsæt beint"
+                "default": "Haltu áfram beint"
             },
             "default": {
                 "default": "{lane_instruction}"
