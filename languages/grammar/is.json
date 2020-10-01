@@ -1,0 +1,14 @@
+{
+    "meta": {
+        "regExpFlags": "gi"
+    },
+    "v5": {
+        "accusative": [
+            ["^ (.*?)vegur", "$1veg"],
+            ["^ (.*?)vogur", "$1vog"]
+        ],
+        "dative": [
+            ["^ (.*?)vegur", "$1vegi"]
+        ]
+    }
+}

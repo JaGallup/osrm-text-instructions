@@ -4,58 +4,70 @@
     },
     "v5": {
         "constants": {
+            "ordinalize:masculine": {
+                "1": "fyrsta",
+                "2": "annan",
+                "3": "þriðja",
+                "4": "fjórða",
+                "5": "fimmta",
+                "6": "sjötta",
+                "7": "sjöunda",
+                "8": "áttunda",
+                "9": "níunda",
+                "10": "tíunda"
+            },
             "ordinalize": {
-                "1": "første",
-                "2": "anden",
-                "3": "tredje",
-                "4": "fjerde",
-                "5": "femte",
-                "6": "sjette",
-                "7": "syvende",
-                "8": "ottende",
-                "9": "niende",
-                "10": "tiende"
+                "1": "fyrstu",
+                "2": "aðra",
+                "3": "þriðju",
+                "4": "fjórðu",
+                "5": "fimmtu",
+                "6": "sjöttu",
+                "7": "sjöundu",
+                "8": "áttundu",
+                "9": "níundu",
+                "10": "tíundu"
             },
             "direction": {
-                "north": "nord",
-                "northeast": "nordøst",
-                "east": "øst",
-                "southeast": "sydøst",
-                "south": "syd",
-                "southwest": "sydvest",
-                "west": "vest",
-                "northwest": "nordvest"
+                "north": "norður",
+                "northeast": "norðaustur",
+                "east": "austur",
+                "southeast": "suðaustur",
+                "south": "suður",
+                "southwest": "suðvestur",
+                "west": "vestur",
+                "northwest": "norðvestur"
             },
             "modifier": {
-                "left": "til venstre",
-                "right": "til højre",
-                "sharp left": "skarpt til venstre",
-                "sharp right": "skarpt til højre",
-                "slight left": "svagt til venstre",
-                "slight right": "svagt til højre",
-                "straight": "ligeud",
-                "uturn": "U-vending"
+                "left": "til vinstri",
+                "right": "til hægri",
+                "sharp left": "skarpt til vinstri",
+                "sharp right": "skarpt til hægri",
+                "slight left": "svagt til vinstri",
+                "slight right": "svagt til hægri",
+                "straight": "beint",
+                "uturn": "U-beygju"
             },
             "lanes": {
-                "xo": "Hold til højre",
-                "ox": "Hold til venstre",
-                "xox": "Benyt midterste spor",
-                "oxo": "Hold til højre eller venstre"
+                "xo": "Vertu hægra megin",
+                "ox": "Vertu vinstra megin",
+                "xox": "Vertu á miðakrein",
+                "oxo": "Vertu hægra eða vinstra megin"
             }
         },
         "modes": {
             "ferry": {
-                "default": "Tag færgen",
-                "name": "Tag færgen {way_name}",
-                "destination": "Tag færgen i retning mod {destination}"
+                "default": "Taktu ferjuna",
+                "name": "Taktu ferjuna {way_name:accusative}",
+                "destination": "Taktu ferjuna til {destination:possessive}"
             }
         },
         "phrase": {
-            "two linked by distance": "{instruction_one}, derefter, efter {distance}, {instruction_two}",
-            "two linked": "{instruction_one}, derefter {instruction_two}",
-            "one in distance": "Efter {distance}, {instruction_one}",
+            "two linked by distance": "{instruction_one}, og svo, eftir {distance}, {instruction_two}",
+            "two linked": "{instruction_one}, og svo {instruction_two}",
+            "one in distance": "Eftir {distance}, {instruction_one}",
             "name and ref": "{name} ({ref})",
-            "exit with number": "afkørsel {exit}"
+            "exit with number": "{exit} afleggjara"
         },
         "arrive": {
             "default": {
@@ -66,46 +78,46 @@
                 "named": "Du er ankommet til {waypoint_name}"
             },
             "left": {
-                "default": "Du er ankommet til din {nth} destination, som befinder sig til venstre",
-                "upcoming": "Du vil ankomme til din {nth} destination på venstre hånd",
+                "default": "Du er ankommet til din {nth} destination, som befinder sig til vinstri",
+                "upcoming": "Du vil ankomme til din {nth} destination på vinstri hånd",
                 "short": "Du er ankommet",
                 "short-upcoming": "Du vil ankomme",
-                "named": "Du er ankommet til {waypoint_name}, som befinder sig til venstre"
+                "named": "Du er ankommet til {waypoint_name}, som befinder sig til vinstri"
             },
             "right": {
-                "default": "Du er ankommet til din {nth} destination, som befinder sig til højre",
-                "upcoming": "Du vil ankomme til din {nth} destination på højre hånd",
+                "default": "Du er ankommet til din {nth} destination, som befinder sig til hægri",
+                "upcoming": "Du vil ankomme til din {nth} destination på hægri hånd",
                 "short": "Du er ankommet",
                 "short-upcoming": "Du vil ankomme",
-                "named": "Du er ankommet til {waypoint_name}, som befinder sig til højre"
+                "named": "Du er ankommet til {waypoint_name}, som befinder sig til hægri"
             },
             "sharp left": {
-                "default": "Du er ankommet til din {nth} destination, som befinder sig til venstre",
-                "upcoming": "Du vil ankomme til din {nth} destination på venstre hånd",
+                "default": "Du er ankommet til din {nth} destination, som befinder sig til vinstri",
+                "upcoming": "Du vil ankomme til din {nth} destination på vinstri hånd",
                 "short": "Du er ankommet",
                 "short-upcoming": "Du vil ankomme",
-                "named": "Du er ankommet til {waypoint_name}, som befinder sig til venstre"
+                "named": "Du er ankommet til {waypoint_name}, som befinder sig til vinstri"
             },
             "sharp right": {
-                "default": "Du er ankommet til din {nth} destination, som befinder sig til højre",
-                "upcoming": "Du vil ankomme til din {nth} destination på højre hånd",
+                "default": "Du er ankommet til din {nth} destination, som befinder sig til hægri",
+                "upcoming": "Du vil ankomme til din {nth} destination på hægri hånd",
                 "short": "Du er ankommet",
                 "short-upcoming": "Du vil ankomme",
-                "named": "Du er ankommet til {waypoint_name}, som befinder sig til højre"
+                "named": "Du er ankommet til {waypoint_name}, som befinder sig til hægri"
             },
             "slight right": {
-                "default": "Du er ankommet til din {nth} destination, som befinder sig til højre",
-                "upcoming": "Du vil ankomme til din {nth} destination på højre hånd",
+                "default": "Du er ankommet til din {nth} destination, som befinder sig til hægri",
+                "upcoming": "Du vil ankomme til din {nth} destination på hægri hånd",
                 "short": "Du er ankommet",
                 "short-upcoming": "Du vil ankomme",
-                "named": "Du er ankommet til {waypoint_name}, som befinder sig til højre"
+                "named": "Du er ankommet til {waypoint_name}, som befinder sig til hægri"
             },
             "slight left": {
-                "default": "Du er ankommet til din {nth} destination, som befinder sig til venstre",
-                "upcoming": "Du vil ankomme til din {nth} destination på venstre hånd",
+                "default": "Du er ankommet til din {nth} destination, som befinder sig til vinstri",
+                "upcoming": "Du vil ankomme til din {nth} destination på vinstri hånd",
                 "short": "Du er ankommet",
                 "short-upcoming": "Du vil ankomme",
-                "named": "Du er ankommet til {waypoint_name}, som befinder sig til venstre"
+                "named": "Du er ankommet til {waypoint_name}, som befinder sig til vinstri"
             },
             "straight": {
                 "default": "Du er ankommet til din {nth} destination, der befinder sig lige fremme",
@@ -119,71 +131,71 @@
             "default": {
                 "default": "{modifier:turn}",
                 "name": "{modifier:turn} videre ad {way_name}",
-                "destination": "{modifier:turn} mod {destination}",
+                "destination": "{modifier:turn} í átt að {destination:dative}",
                 "exit": "{modifier:turn} ad {way_name}"
             },
             "straight": {
-                "default": "Fortsæt ligeud",
-                "name": "Fortsæt ligeud ad {way_name}",
-                "destination": "Fortsæt mod {destination}",
-                "distance": "Fortsæt {distance} ligeud",
+                "default": "Fortsæt beint",
+                "name": "Fortsæt beint ad {way_name}",
+                "destination": "Fortsæt í átt að {destination:dative}",
+                "distance": "Fortsæt {distance} beint",
                 "namedistance": "Fortsæt {distance} ad {way_name}"
             },
             "sharp left": {
-                "default": "Drej skarpt til venstre",
-                "name": "Drej skarpt til venstre videre ad {way_name}",
-                "destination": "Drej skarpt til venstre mod {destination}",
-                "junction_name": "Drej skarpt til venstre videre ved {junction_name}"
+                "default": "Beygðu skarpt til vinstri",
+                "name": "Beygðu skarpt til vinstri videre ad {way_name}",
+                "destination": "Beygðu skarpt til vinstri í átt að {destination:dative}",
+                "junction_name": "Beygðu skarpt til vinstri videre ved {junction_name}"
             },
             "sharp right": {
-                "default": "Drej skarpt til højre",
-                "name": "Drej skarpt til højre videre ad {way_name}",
-                "destination": "Drej skarpt til højre mod {destination}",
-                "junction_name": "Drej skarpt til højre videre ved {junction_name}"
+                "default": "Beygðu skarpt til hægri",
+                "name": "Beygðu skarpt til hægri videre ad {way_name}",
+                "destination": "Beygðu skarpt til hægri í átt að {destination:dative}",
+                "junction_name": "Beygðu skarpt til hægri videre ved {junction_name}"
             },
             "slight left": {
-                "default": "Drej let til venstre",
-                "name": "Drej let til venstre videre ad {way_name}",
-                "destination": "Drej let til venstre mod {destination}",
-                "junction_name": "Drej let til venstre videre ved {junction_name}"
+                "default": "Beygðu let til vinstri",
+                "name": "Beygðu let til vinstri videre ad {way_name}",
+                "destination": "Beygðu let til vinstri í átt að {destination:dative}",
+                "junction_name": "Beygðu let til vinstri videre ved {junction_name}"
             },
             "slight right": {
-                "default": "Drej let til højre",
-                "name": "Drej let til højre videre ad {way_name}",
-                "destination": "Drej let til højre mod {destination}",
-                "junction_name": "Drej let til højre videre ved {junction_name}"
+                "default": "Beygðu let til hægri",
+                "name": "Beygðu let til hægri videre ad {way_name}",
+                "destination": "Beygðu let til hægri í átt að {destination:dative}",
+                "junction_name": "Beygðu let til hægri videre ved {junction_name}"
             },
             "uturn": {
                 "default": "Foretag en U-vending",
                 "name": "Foretag en U-vending tilbage ad {way_name}",
-                "destination": "Foretag en U-vending mod {destination}",
+                "destination": "Foretag en U-vending í átt að {destination:dative}",
                 "junction_name": "Foretag en U-vending tilbage ved {junction_name}"
             }
         },
         "depart": {
             "default": {
-                "default": "Kør mod {direction}",
-                "name": "Kør mod {direction} ad {way_name}",
-                "namedistance": "Fortsæt {distance} ad {way_name} mod {direction}"
+                "default": "Keyrðu í {direction}",
+                "name": "Keyrðu í {direction} á {way_name:dative}",
+                "namedistance": "Haltu áfram {distance} á {way_name:dative} í átt að {direction:dative}"
             }
         },
         "end of road": {
             "default": {
                 "default": "{modifier:turn}",
                 "name": "{modifier:turn} ad {way_name}",
-                "destination": "{modifier:turn} mod {destination}",
+                "destination": "{modifier:turn} í átt að {destination:dative}",
                 "junction_name": "{modifier:turn} ved {junction_name}"
             },
             "straight": {
-                "default": "Fortsæt ligeud",
-                "name": "Fortsæt ligeud ad {way_name}",
-                "destination": "Fortsæt ligeud mod {destination}",
-                "junction_name": "Fortsæt ligeud ved {junction_name}"
+                "default": "Fortsæt beint",
+                "name": "Fortsæt beint ad {way_name}",
+                "destination": "Fortsæt beint í átt að {destination:dative}",
+                "junction_name": "Fortsæt beint ved {junction_name}"
             },
             "uturn": {
                 "default": "Foretag en U-vending for enden af vejen",
                 "name": "Foretag en U-vending ad {way_name} for enden af vejen",
-                "destination": "Foretag en U-vending mod {destination} for enden af vejen",
+                "destination": "Foretag en U-vending í átt að {destination:dative} for enden af vejen",
                 "junction_name": "Foretag en U-vending ved {junction_name}"
             }
         },
@@ -191,243 +203,243 @@
             "default": {
                 "default": "{modifier:fork} ved udfletningen",
                 "name": "{modifier:fork} på {way_name}",
-                "destination": "{modifier:fork} mod {destination}"
+                "destination": "{modifier:fork} í átt að {destination:dative}"
             },
             "slight left": {
-                "default": "Hold til venstre ved udfletningen",
-                "name": "Hold til venstre på {way_name}",
-                "destination": "Hold til venstre mod {destination}"
+                "default": "Hold til vinstri ved udfletningen",
+                "name": "Hold til vinstri på {way_name}",
+                "destination": "Hold til vinstri í átt að {destination:dative}"
             },
             "slight right": {
-                "default": "Hold til højre ved udfletningen",
-                "name": "Hold til højre på {way_name}",
-                "destination": "Hold til højre mod {destination}"
+                "default": "Hold til hægri ved udfletningen",
+                "name": "Hold til hægri på {way_name}",
+                "destination": "Hold til hægri í átt að {destination:dative}"
             },
             "sharp left": {
-                "default": "Drej skarpt til venstre ved udfletningen",
-                "name": "Drej skarpt til venstre ad {way_name}",
-                "destination": "Drej skarpt til venstre mod {destination}"
+                "default": "Beygðu skarpt til vinstri ved udfletningen",
+                "name": "Beygðu skarpt til vinstri ad {way_name}",
+                "destination": "Beygðu skarpt til vinstri í átt að {destination:dative}"
             },
             "sharp right": {
-                "default": "Drej skarpt til højre ved udfletningen",
-                "name": "Drej skarpt til højre ad {way_name}",
-                "destination": "Drej skarpt til højre mod {destination}"
+                "default": "Beygðu skarpt til hægri ved udfletningen",
+                "name": "Beygðu skarpt til hægri ad {way_name}",
+                "destination": "Beygðu skarpt til hægri í átt að {destination:dative}"
             },
             "uturn": {
                 "default": "Foretag en U-vending",
                 "name": "Foretag en U-vending ad {way_name}",
-                "destination": "Foretag en U-vending mod {destination}"
+                "destination": "Foretag en U-vending í átt að {destination:dative}"
             }
         },
         "merge": {
             "default": {
                 "default": "Flet {modifier}",
                 "name": "Flet {modifier} ad {way_name}",
-                "destination": "Flet {modifier} mod {destination}"
+                "destination": "Flet {modifier} í átt að {destination:dative}"
             },
             "straight": {
                 "default": "Flet",
                 "name": "Flet ind på {way_name}",
-                "destination": "Flet ind mod {destination}"
+                "destination": "Flet ind í átt að {destination:dative}"
             },
             "slight left": {
-                "default": "Flet til venstre",
-                "name": "Flet til venstre ad {way_name}",
-                "destination": "Flet til venstre mod {destination}"
+                "default": "Flet til vinstri",
+                "name": "Flet til vinstri ad {way_name}",
+                "destination": "Flet til vinstri í átt að {destination:dative}"
             },
             "slight right": {
-                "default": "Flet til højre",
-                "name": "Flet til højre ad {way_name}",
-                "destination": "Flet til højre mod {destination}"
+                "default": "Flet til hægri",
+                "name": "Flet til hægri ad {way_name}",
+                "destination": "Flet til hægri í átt að {destination:dative}"
             },
             "sharp left": {
-                "default": "Flet til venstre",
-                "name": "Flet til venstre ad {way_name}",
-                "destination": "Flet til venstre mod {destination}"
+                "default": "Flet til vinstri",
+                "name": "Flet til vinstri ad {way_name}",
+                "destination": "Flet til vinstri í átt að {destination:dative}"
             },
             "sharp right": {
-                "default": "Flet til højre",
-                "name": "Flet til højre ad {way_name}",
-                "destination": "Flet til højre mod {destination}"
+                "default": "Flet til hægri",
+                "name": "Flet til hægri ad {way_name}",
+                "destination": "Flet til hægri í átt að {destination:dative}"
             },
             "uturn": {
                 "default": "Foretag en U-vending",
                 "name": "Foretag en U-vending ad {way_name}",
-                "destination": "Foretag en U-vending mod {destination}"
+                "destination": "Foretag en U-vending í átt að {destination:dative}"
             }
         },
         "new name": {
             "default": {
                 "default": "Fortsæt {modifier}",
                 "name": "Fortsæt {modifier} ad {way_name}",
-                "destination": "Fortsæt {modifier} mod {destination}"
+                "destination": "Fortsæt {modifier} í átt að {destination:dative}"
             },
             "straight": {
-                "default": "Fortsæt ligeud",
+                "default": "Fortsæt beint",
                 "name": "Fortsæt ad {way_name}",
-                "destination": "Fortsæt mod {destination}"
+                "destination": "Fortsæt í átt að {destination:dative}"
             },
             "sharp left": {
-                "default": "Drej skarpt til venstre",
-                "name": "Drej skarpt til venstre ad {way_name}",
-                "destination": "Drej skarpt til venstre mod {destination}"
+                "default": "Beygðu skarpt til vinstri",
+                "name": "Beygðu skarpt til vinstri ad {way_name}",
+                "destination": "Beygðu skarpt til vinstri í átt að {destination:dative}"
             },
             "sharp right": {
-                "default": "Drej skarpt til højre",
-                "name": "Drej skarpt til højre ad {way_name}",
-                "destination": "Drej skarpt til højre mod {destination}"
+                "default": "Beygðu skarpt til hægri",
+                "name": "Beygðu skarpt til hægri ad {way_name}",
+                "destination": "Beygðu skarpt til hægri í átt að {destination:dative}"
             },
             "slight left": {
-                "default": "Fortsæt til venstre",
-                "name": "Fortsæt til venstre ad {way_name}",
-                "destination": "Fortsæt til venstre mod {destination}"
+                "default": "Fortsæt til vinstri",
+                "name": "Fortsæt til vinstri ad {way_name}",
+                "destination": "Fortsæt til vinstri í átt að {destination:dative}"
             },
             "slight right": {
-                "default": "Fortsæt til højre",
-                "name": "Fortsæt til højre ad {way_name}",
-                "destination": "Fortsæt til højre mod {destination}"
+                "default": "Fortsæt til hægri",
+                "name": "Fortsæt til hægri ad {way_name}",
+                "destination": "Fortsæt til hægri í átt að {destination:dative}"
             },
             "uturn": {
                 "default": "Foretag en U-vending",
                 "name": "Foretag en U-vending ad {way_name}",
-                "destination": "Foretag en U-vending mod {destination}"
+                "destination": "Foretag en U-vending í átt að {destination:dative}"
             }
         },
         "notification": {
             "default": {
                 "default": "Fortsæt {modifier}",
                 "name": "Fortsæt {modifier} ad {way_name}",
-                "destination": "Fortsæt {modifier} mod {destination}"
+                "destination": "Fortsæt {modifier} í átt að {destination:dative}"
             },
             "uturn": {
                 "default": "Foretag en U-vending",
                 "name": "Foretag en U-vending ad {way_name}",
-                "destination": "Foretag en U-vending mod {destination}"
+                "destination": "Foretag en U-vending í átt að {destination:dative}"
             }
         },
         "off ramp": {
             "default": {
-                "default": "Tag afkørslen",
-                "name": "Tag afkørslen ad {way_name}",
-                "destination": "Tag afkørslen mod {destination}",
+                "default": "Taktu afleggjarann",
+                "name": "Taktu afleggjarann ad {way_name}",
+                "destination": "Taktu afleggjarann í átt að {destination:dative}",
                 "exit": "Tag afkørsel {exit}",
-                "exit_destination": "Tag afkørsel {exit} mod {destination}"
+                "exit_destination": "Tag afkørsel {exit} í átt að {destination:dative}"
             },
             "left": {
-                "default": "Tag afkørslen til venstre",
-                "name": "Tag afkørslen til venstre ad {way_name}",
-                "destination": "Tag afkørslen til venstre mod {destination}",
-                "exit": "Tag afkørsel {exit} til venstre",
-                "exit_destination": "Tag afkørsel {exit} til venstre mod {destination}"
+                "default": "Taktu afleggjarann til vinstri",
+                "name": "Taktu afleggjarann til vinstri ad {way_name}",
+                "destination": "Taktu afleggjarann til vinstri í átt að {destination:dative}",
+                "exit": "Tag afkørsel {exit} til vinstri",
+                "exit_destination": "Tag afkørsel {exit} til vinstri í átt að {destination:dative}"
             },
             "right": {
-                "default": "Tag afkørslen til højre",
-                "name": "Tag afkørslen til højre ad {way_name}",
-                "destination": "Tag afkørslen til højre mod {destination}",
-                "exit": "Tag afkørsel {exit} til højre",
-                "exit_destination": "Tag afkørsel {exit} til højre mod {destination}"
+                "default": "Taktu afleggjarann til hægri",
+                "name": "Taktu afleggjarann til hægri ad {way_name}",
+                "destination": "Taktu afleggjarann til hægri í átt að {destination:dative}",
+                "exit": "Tag afkørsel {exit} til hægri",
+                "exit_destination": "Tag afkørsel {exit} til hægri í átt að {destination:dative}"
             },
             "sharp left": {
-                "default": "Tag afkørslen til venstre",
-                "name": "Tag afkørslen til venstre ad {way_name}",
-                "destination": "Tag afkørslen til venstre mod {destination}",
-                "exit": "Tag afkørsel {exit} til venstre",
-                "exit_destination": "Tag afkørsel {exit} til venstre mod {destination}"
+                "default": "Taktu afleggjarann til vinstri",
+                "name": "Taktu afleggjarann til vinstri ad {way_name}",
+                "destination": "Taktu afleggjarann til vinstri í átt að {destination:dative}",
+                "exit": "Tag afkørsel {exit} til vinstri",
+                "exit_destination": "Tag afkørsel {exit} til vinstri í átt að {destination:dative}"
             },
             "sharp right": {
-                "default": "Tag afkørslen til højre",
-                "name": "Tag afkørslen til højre ad {way_name}",
-                "destination": "Tag afkørslen til højre mod {destination}",
-                "exit": "Tag afkørsel {exit} til højre",
-                "exit_destination": "Tag afkørsel {exit} til højre mod {destination}"
+                "default": "Taktu afleggjarann til hægri",
+                "name": "Taktu afleggjarann til hægri ad {way_name}",
+                "destination": "Taktu afleggjarann til hægri í átt að {destination:dative}",
+                "exit": "Tag afkørsel {exit} til hægri",
+                "exit_destination": "Tag afkørsel {exit} til hægri í átt að {destination:dative}"
             },
             "slight left": {
-                "default": "Tag afkørslen til venstre",
-                "name": "Tag afkørslen til venstre ad {way_name}",
-                "destination": "Tag afkørslen til venstre mod {destination}",
-                "exit": "Tag afkørsel {exit} til venstre",
-                "exit_destination": "Tag afkørsel {exit} til venstre mod {destination}"
+                "default": "Taktu afleggjarann til vinstri",
+                "name": "Taktu afleggjarann til vinstri ad {way_name}",
+                "destination": "Taktu afleggjarann til vinstri í átt að {destination:dative}",
+                "exit": "Tag afkørsel {exit} til vinstri",
+                "exit_destination": "Tag afkørsel {exit} til vinstri í átt að {destination:dative}"
             },
             "slight right": {
-                "default": "Tag afkørslen til højre",
-                "name": "Tag afkørslen til højre ad {way_name}",
-                "destination": "Tag afkørslen til højre mod {destination}",
-                "exit": "Tag afkørsel {exit} til højre",
-                "exit_destination": "Tag afkørsel {exit} til højre mod {destination}"
+                "default": "Taktu afleggjarann til hægri",
+                "name": "Taktu afleggjarann til hægri ad {way_name}",
+                "destination": "Taktu afleggjarann til hægri í átt að {destination:dative}",
+                "exit": "Tag afkørsel {exit} til hægri",
+                "exit_destination": "Tag afkørsel {exit} til hægri í átt að {destination:dative}"
             }
         },
         "on ramp": {
             "default": {
-                "default": "Tag afkørslen",
-                "name": "Tag afkørslen ad {way_name}",
-                "destination": "Tag afkørslen mod {destination}"
+                "default": "Taktu afleggjarann",
+                "name": "Taktu afleggjarann ad {way_name}",
+                "destination": "Taktu afleggjarann í átt að {destination:dative}"
             },
             "left": {
-                "default": "Tag afkørslen til venstre",
-                "name": "Tag afkørslen til venstre ad {way_name}",
-                "destination": "Tag afkørslen til venstre mod {destination}"
+                "default": "Taktu afleggjarann til vinstri",
+                "name": "Taktu afleggjarann til vinstri ad {way_name}",
+                "destination": "Taktu afleggjarann til vinstri í átt að {destination:dative}"
             },
             "right": {
-                "default": "Tag afkørslen til højre",
-                "name": "Tag afkørslen til højre ad {way_name}",
-                "destination": "Tag afkørslen til højre mod {destination}"
+                "default": "Taktu afleggjarann til hægri",
+                "name": "Taktu afleggjarann til hægri ad {way_name}",
+                "destination": "Taktu afleggjarann til hægri í átt að {destination:dative}"
             },
             "sharp left": {
-                "default": "Tag afkørslen til venstre",
-                "name": "Tag afkørslen til venstre ad {way_name}",
-                "destination": "Tag afkørslen til venstre mod {destination}"
+                "default": "Taktu afleggjarann til vinstri",
+                "name": "Taktu afleggjarann til vinstri ad {way_name}",
+                "destination": "Taktu afleggjarann til vinstri í átt að {destination:dative}"
             },
             "sharp right": {
-                "default": "Tag afkørslen til højre",
-                "name": "Tag afkørslen til højre ad {way_name}",
-                "destination": "Tag afkørslen til højre mod {destination}"
+                "default": "Taktu afleggjarann til hægri",
+                "name": "Taktu afleggjarann til hægri ad {way_name}",
+                "destination": "Taktu afleggjarann til hægri í átt að {destination:dative}"
             },
             "slight left": {
-                "default": "Tag afkørslen til venstre",
-                "name": "Tag afkørslen til venstre ad {way_name}",
-                "destination": "Tag afkørslen til venstre mod {destination}"
+                "default": "Taktu afleggjarann til vinstri",
+                "name": "Taktu afleggjarann til vinstri ad {way_name}",
+                "destination": "Taktu afleggjarann til vinstri í átt að {destination:dative}"
             },
             "slight right": {
-                "default": "Tag afkørslen til højre",
-                "name": "Tag afkørslen til højre ad {way_name}",
-                "destination": "Tag afkørslen til højre mod {destination}"
+                "default": "Taktu afleggjarann til hægri",
+                "name": "Taktu afleggjarann til hægri ad {way_name}",
+                "destination": "Taktu afleggjarann til hægri í átt að {destination:dative}"
             }
         },
         "rotary": {
             "default": {
                 "default": {
-                    "default": "Kør ind i rundkørslen",
-                    "name": "I rundkørslen, kør fra ad {way_name}",
-                    "destination": "I rundkørslen, kør mod {destination}"
+                    "default": "Keyrðu inn á hringtorgið",
+                    "name": "Keyrðu um hringtorgið inn á {way_name:accusative}",
+                    "destination": "Keyrðu frá hringtorginu í átt að {destination:dative}"
                 },
                 "name": {
-                    "default": "Kør ind i {rotary_name}",
-                    "name": "Kør ind i {rotary_name} og kør fra ad {way_name}",
-                    "destination": "Kør ind i {rotary_name} og kør mod {destination}"
+                    "default": "Keyrðu inn á {rotary_name:accusative}",
+                    "name": "Keyrðu inn á {rotary_name:accusative} þaðan inn á {way_name:accusative}",
+                    "destination": "Keyrðu inn á {rotary_name:accusative} og þaðan í átt að {destination:dative}"
                 },
                 "exit": {
-                    "default": "I rundkørslen, tag {exit_number} afkørsel",
-                    "name": "I rundkørslen, tag {exit_number} afkørsel ad {way_name}",
-                    "destination": "I rundkørslen, tag {exit_number} afkørsel mod {destination}"
+                    "default": "Taktu {exit_number} beygju út af hringtorginu",
+                    "name": "Taktu {exit_number} beygju af hringtorginu inn á {way_name:accusative}",
+                    "destination": "Taktu {exit_number} beygju af hringtorginu í átt að {destination:dative}"
                 },
                 "name_exit": {
-                    "default": "Kør ind i {rotary_name} og tag {exit_number} afkørsel",
-                    "name": "Kør ind i {rotary_name} og tag {exit_number} afkørsel ad {way_name}",
-                    "destination": "Kør ind i {rotary_name} og tag {exit_number} afkørsel mod {destination}"
+                    "default": "Keyrðu inn á {rotary_name:accusative} og taktu {exit_number} beygju",
+                    "name": "Keyrðu inn á {rotary_name:accusative} og taktu {exit_number} beygju inn á {way_name:accusative}",
+                    "destination": "Keyrðu inn á {rotary_name:accusative} og taktu {exit_number} beygju í átt að {destination:dative}"
                 }
             }
         },
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "I rundkørslen, tag {exit_number} afkørsel",
-                    "name": "I rundkørslen, tag {exit_number} afkørsel ad {way_name}",
-                    "destination": "I rundkørslen, tag {exit_number} afkørsel mod {destination}"
+                    "default": "Taktu {exit_number} beyju út af hringtorginu",
+                    "name": "Taktu {exit_number} beyju út af hringtorginu inn á {way_name:accusative}",
+                    "destination": "Taktu {exit_number} beyju út af hringtorginu í átt að {destination:dative}"
                 },
                 "default": {
-                    "default": "Kør ind i rundkørslen",
-                    "name": "I rundkørslen, kør fra ad {way_name}",
-                    "destination": "I rundkørslen, kør mod {destination}"
+                    "default": "Keyrðu inn á hringtorgið",
+                    "name": "Keyrðu af hringtorginu inn á {way_name:accusative}",
+                    "destination": "Keyrðu frá hringtorginu í átt að {destination:dative}"
                 }
             }
         },
@@ -435,67 +447,67 @@
             "default": {
                 "default": "{modifier:turn}",
                 "name": "{modifier:turn} ad {way_name}",
-                "destination": "{modifier:turn} mod {destination}"
+                "destination": "{modifier:turn} í átt að {destination:dative}"
             },
             "left": {
-                "default": "Drej til venstre",
-                "name": "Drej til venstre ad {way_name}",
-                "destination": "Drej til venstre mod {destination}"
+                "default": "Beygðu til vinstri",
+                "name": "Beygðu til vinstri ad {way_name}",
+                "destination": "Beygðu til vinstri í átt að {destination:dative}"
             },
             "right": {
-                "default": "Drej til højre",
-                "name": "Drej til højre ad {way_name}",
-                "destination": "Drej til højre mod {destination}"
+                "default": "Beygðu til hægri",
+                "name": "Beygðu til hægri ad {way_name}",
+                "destination": "Beygðu til hægri í átt að {destination:dative}"
             },
             "straight": {
-                "default": "Fortsæt ligeud",
-                "name": "Fortsæt ligeud ad {way_name}",
-                "destination": "Fortsæt ligeud mod {destination}"
+                "default": "Fortsæt beint",
+                "name": "Fortsæt beint ad {way_name}",
+                "destination": "Fortsæt beint í átt að {destination:dative}"
             }
         },
         "exit roundabout": {
             "default": {
-                "default": "Forlad rundkørslen",
-                "name": "Forlad rundkørslen ad {way_name}",
-                "destination": "Forlad rundkørslen mod {destination}"
+                "default": "Keyrðu út af hringtorginu",
+                "name": "Keyrðu út af hringtorginu inn á {way_name:accusative}",
+                "destination": "Keyrðu út af hringtorginu í átt að {destination:dative}"
             }
         },
         "exit rotary": {
             "default": {
-                "default": "Forlad rundkørslen",
-                "name": "Forlad rundkørslen ad {way_name}",
-                "destination": "Forlad rundkørslen mod {destination}"
+                "default": "Keyrðu út af hringtorginu",
+                "name": "Keyrðu út af hringtorginu inn á {way_name:accusative}",
+                "destination": "Keyrðu út af hringtorginu í átt að {destination:dative}"
             }
         },
         "turn": {
             "default": {
                 "default": "{modifier:turn}",
                 "name": "{modifier:turn} ad {way_name}",
-                "destination": "{modifier:turn} mod {destination}",
+                "destination": "{modifier:turn} í átt að {destination:dative}",
                 "junction_name": "{modifier:turn} ved {junction_name}"
             },
             "left": {
-                "default": "Drej til venstre",
-                "name": "Drej til venstre ad {way_name}",
-                "destination": "Drej til venstre mod {destination}",
-                "junction_name": "Drej til venstre ved {junction_name}"
+                "default": "Beygðu til vinstri",
+                "name": "Beygðu til vinstri inn á {way_name:accusative}",
+                "destination": "Beygðu til vinstri í átt að {destination:dative}",
+                "junction_name": "Beygðu til vinstri á {junction_name:dative}"
             },
             "right": {
-                "default": "Drej til højre",
-                "name": "Drej til højre ad {way_name}",
-                "destination": "Drej til højre mod {destination}",
-                "junction_name": "Drej til højre ved {junction_name}"
+                "default": "Beygðu til hægri",
+                "name": "Beygðu til hægri inn á {way_name:accusative}",
+                "destination": "Beygðu til hægri í átt að {destination:dative}",
+                "junction_name": "Beygðu til hægri á {junction_name:dative}"
             },
             "straight": {
-                "default": "Kør ligeud",
-                "name": "Kør ligeud ad {way_name}",
-                "destination": "Kør ligeud mod {destination}",
-                "junction_name": "Kør ligeud ved {junction_name}"
+                "default": "Keyrðu beint",
+                "name": "Keyrðu bein inn á {way_name:accusative}",
+                "destination": "Keyrðu beint í átt að {destination:dative}",
+                "junction_name": "Keyrðu beint á {junction_name:dative}"
             }
         },
         "use lane": {
             "no_lanes": {
-                "default": "Fortsæt ligeud"
+                "default": "Fortsæt beint"
             },
             "default": {
                 "default": "{lane_instruction}"
