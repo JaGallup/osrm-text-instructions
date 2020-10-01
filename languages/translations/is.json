@@ -78,7 +78,7 @@
                 "named": "Du er ankommet til {waypoint_name}"
             },
             "left": {
-                "default": "Du er ankommet til din {nth} destination, som befinder sig til vinstriXX",
+                "default": "Þú ert kominn á {nth} áfangastað, sem er á vinstri hönd",
                 "upcoming": "Du vil ankomme til din {nth} destination på vinstri hånd",
                 "short": "Du er ankommet",
                 "short-upcoming": "Du vil ankomme",
