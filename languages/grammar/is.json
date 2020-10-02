@@ -4,11 +4,1570 @@
     },
     "v5": {
         "accusative": [
-            ["^ (.*?)vegur", "$1veg"],
-            ["^ (.*?)vogur", "$1vog"]
+            [
+                " (.*?)staðir",
+                "$1staði"
+            ],
+            [
+                " (.*?)vegur",
+                "$1veg"
+            ],
+            [
+                " (.*?)gata",
+                "$1götu"
+            ],
+            [
+                " (.*?)dalur",
+                "$1dal"
+            ],
+            [
+                " (.*?)vellir",
+                "$1velli"
+            ],
+            [
+                " (.*?)bakki",
+                "$1bakka"
+            ],
+            [
+                " (.*?)kirkja",
+                "$1kirkju"
+            ],
+            [
+                " (.*?)hóll",
+                "$1hól"
+            ],
+            [
+                " (.*?)stígur",
+                "$1stíg"
+            ],
+            [
+                " (.*?)hólar",
+                "$1hóla"
+            ],
+            [
+                " (.*?)brekka",
+                "$1brekku"
+            ],
+            [
+                " (.*?)ormstunga",
+                "$1ormstungu"
+            ],
+            [
+                " (.*?)bær",
+                "$1bæ"
+            ],
+            [
+                " (.*?)lækur",
+                "$1læk"
+            ],
+            [
+                " (.*?)höfði",
+                "$1höfða"
+            ],
+            [
+                " (.*?)hagi",
+                "$1haga"
+            ],
+            [
+                " (.*?)hvammur",
+                "$1hvamm"
+            ],
+            [
+                " (.*?)lundur",
+                "$1lund"
+            ],
+            [
+                " (.*?)teigur",
+                "$1teig"
+            ],
+            [
+                " (.*?)tangi",
+                "$1tanga"
+            ],
+            [
+                " (.*?)síða",
+                "$1síðu"
+            ],
+            [
+                " (.*?)garður",
+                "$1garð"
+            ],
+            [
+                " (.*?)vogur",
+                "$1vog"
+            ],
+            [
+                " (.*?)rimi",
+                "$1rima"
+            ],
+            [
+                " (.*?)salir",
+                "$1sali"
+            ],
+            [
+                " (.*?)hjáleiga",
+                "$1hjáleigu"
+            ],
+            [
+                " (.*?)skógur",
+                "$1skóg"
+            ],
+            [
+                " (.*?)vangur",
+                "$1vang"
+            ],
+            [
+                " (.*?)smári",
+                "$1smára"
+            ],
+            [
+                " (.*?)hamrar",
+                "$1hamra"
+            ],
+            [
+                " (.*?)garðar",
+                "$1garða"
+            ],
+            [
+                " (.*?)múli",
+                "$1múla"
+            ],
+            [
+                " (.*?)hjalli",
+                "$1hjalla"
+            ],
+            [
+                " (.*?)staður",
+                "$1stað"
+            ],
+            [
+                " (.*?)hella",
+                "$1hellu"
+            ],
+            [
+                " (.*?)hólmi",
+                "$1hólma"
+            ],
+            [
+                " (.*?)skóli",
+                "$1skóla"
+            ],
+            [
+                " (.*?)heimar",
+                "$1heima"
+            ],
+            [
+                " (.*?)grandi",
+                "$1granda"
+            ],
+            [
+                " (.*?)alda",
+                "$1öldu"
+            ],
+            [
+                " (.*?)melur",
+                "$1mel"
+            ],
+            [
+                " (.*?)skógar",
+                "$1skóga"
+            ],
+            [
+                " (.*?)stekkur",
+                "$1stekk"
+            ],
+            [
+                " (.*?)hvoll",
+                "$1hvol"
+            ],
+            [
+                " (.*?)fjörður",
+                "$1fjörð"
+            ],
+            [
+                " (.*?)endi",
+                "$1enda"
+            ],
+            [
+                " (.*?)mói",
+                "$1móa"
+            ],
+            [
+                " (.*?)sandur",
+                "$1sand"
+            ],
+            [
+                " (.*?)völlur",
+                "$1völl"
+            ],
+            [
+                " (.*?)skálar",
+                "$1skála"
+            ],
+            [
+                " (.*?)árbakkar",
+                "$1árbakka"
+            ],
+            [
+                " (.*?)klettur",
+                "$1klett"
+            ],
+            [
+                " (.*?)dalir",
+                "$1dali"
+            ],
+            [
+                " (.*?)leira",
+                "$1leiru"
+            ],
+            [
+                " (.*?)Reykir",
+                "$1Reyki"
+            ],
+            [
+                " (.*?)Tunga",
+                "$1Tungu"
+            ],
+            [
+                " (.*?)skáli",
+                "$1skála"
+            ],
+            [
+                " (.*?)hylur",
+                "$1hyl"
+            ],
+            [
+                " (.*?)steinn",
+                "$1stein"
+            ],
+            [
+                " (.*?)móar",
+                "$1móa"
+            ],
+            [
+                " (.*?)Hvammur",
+                "$1Hvamm"
+            ],
+            [
+                " (.*?)kelda",
+                "$1keldu"
+            ],
+            [
+                " (.*?)steinar",
+                "$1steina"
+            ],
+            [
+                " (.*?)bryggja",
+                "$1bryggju"
+            ],
+            [
+                " (.*?)Brekka",
+                "$1Brekku"
+            ],
+            [
+                " (.*?)Núpur",
+                "$1Núp"
+            ],
+            [
+                " (.*?)kambur",
+                "$1kamb"
+            ],
+            [
+                " (.*?)partur",
+                "$1part"
+            ],
+            [
+                " (.*?)geisli",
+                "$1geisla"
+            ],
+            [
+                " (.*?)hellir",
+                "$1helli"
+            ],
+            [
+                " (.*?)stapi",
+                "$1stapa"
+            ],
+            [
+                " (.*?)blettur",
+                "$1blett"
+            ],
+            [
+                " (.*?)fjara",
+                "$1fjöru"
+            ],
+            [
+                " (.*?)Dalur",
+                "$1Dal"
+            ],
+            [
+                " (.*?)bali",
+                "$1bala"
+            ],
+            [
+                " (.*?)reykir",
+                "$1reyki"
+            ],
+            [
+                " (.*?)melar",
+                "$1mela"
+            ],
+            [
+                " (.*?)Bakki",
+                "$1Bakka"
+            ],
+            [
+                " (.*?)kriki",
+                "$1krika"
+            ],
+            [
+                " (.*?)Hóll",
+                "$1Hól"
+            ]
         ],
         "dative": [
-            ["^ (.*?)vegur", "$1vegi"]
+            [
+                " (.*?)staðir",
+                "$1stöðum"
+            ],
+            [
+                " (.*?)holt",
+                "$1holti"
+            ],
+            [
+                " (.*?)vegur",
+                "$1vegi"
+            ],
+            [
+                " (.*?)gata",
+                "$1götu"
+            ],
+            [
+                " (.*?)dalur",
+                "$1dal"
+            ],
+            [
+                " (.*?)nes",
+                "$1nesi"
+            ],
+            [
+                " (.*?)sel",
+                "$1seli"
+            ],
+            [
+                " (.*?)kot",
+                "$1koti"
+            ],
+            [
+                " (.*?)tún",
+                "$1túni"
+            ],
+            [
+                " (.*?)vellir",
+                "$1völlum"
+            ],
+            [
+                " (.*?)fell",
+                "$1felli"
+            ],
+            [
+                " (.*?)land",
+                "$1landi"
+            ],
+            [
+                " (.*?)bakki",
+                "$1bakka"
+            ],
+            [
+                " (.*?)kirkja",
+                "$1kirkju"
+            ],
+            [
+                " (.*?)hóll",
+                "$1hól"
+            ],
+            [
+                " (.*?)stígur",
+                "$1stíg"
+            ],
+            [
+                " (.*?)hólar",
+                "$1hólum"
+            ],
+            [
+                " (.*?)á",
+                "$1ár"
+            ],
+            [
+                " (.*?)brekka",
+                "$1brekku"
+            ],
+            [
+                " (.*?)berg",
+                "$1bergi"
+            ],
+            [
+                " (.*?)hraun",
+                "$1hrauni"
+            ],
+            [
+                " (.*?)gil",
+                "$1gili"
+            ],
+            [
+                " (.*?)ormstunga",
+                "$1ormstungu"
+            ],
+            [
+                " (.*?)bær",
+                "$1bæ"
+            ],
+            [
+                " (.*?)lækur",
+                "$1læk"
+            ],
+            [
+                " (.*?)hús",
+                "$1húsi"
+            ],
+            [
+                " (.*?)vatn",
+                "$1vatni"
+            ],
+            [
+                " (.*?)höfði",
+                "$1höfða"
+            ],
+            [
+                " (.*?)hagi",
+                "$1haga"
+            ],
+            [
+                " (.*?)hvammur",
+                "$1hvammi"
+            ],
+            [
+                " (.*?)lundur",
+                "$1lundi"
+            ],
+            [
+                " (.*?)teigur",
+                "$1teig"
+            ],
+            [
+                " (.*?)tangi",
+                "$1tanga"
+            ],
+            [
+                " (.*?)síða",
+                "$1síðu"
+            ],
+            [
+                " (.*?)garður",
+                "$1garði"
+            ],
+            [
+                " (.*?)grund",
+                "$1grundi"
+            ],
+            [
+                " (.*?)sund",
+                "$1sundi"
+            ],
+            [
+                " (.*?)vogur",
+                "$1vogi"
+            ],
+            [
+                " (.*?)vað",
+                "$1vaði"
+            ],
+            [
+                " (.*?)hvarf",
+                "$1hvarfi"
+            ],
+            [
+                " (.*?)rimi",
+                "$1rima"
+            ],
+            [
+                " (.*?)salir",
+                "$1sölum"
+            ],
+            [
+                " (.*?)hjáleiga",
+                "$1hjáleigu"
+            ],
+            [
+                " (.*?)ból",
+                "$1bóli"
+            ],
+            [
+                " (.*?)skógur",
+                "$1skógi"
+            ],
+            [
+                " (.*?)vangur",
+                "$1vang"
+            ],
+            [
+                " (.*?)foss",
+                "$1fossi"
+            ],
+            [
+                " (.*?)smári",
+                "$1smára"
+            ],
+            [
+                " (.*?)háls",
+                "$1hálsi"
+            ],
+            [
+                " (.*?)hamrar",
+                "$1hömrum"
+            ],
+            [
+                " (.*?)garðar",
+                "$1görðum"
+            ],
+            [
+                " (.*?)múli",
+                "$1múla"
+            ],
+            [
+                " (.*?)hjalli",
+                "$1hjalla"
+            ],
+            [
+                " (.*?)torg",
+                "$1torgi"
+            ],
+            [
+                " (.*?)skarð",
+                "$1skarði"
+            ],
+            [
+                " (.*?)staður",
+                "$1stað"
+            ],
+            [
+                " (.*?)horn",
+                "$1horni"
+            ],
+            [
+                " (.*?)hella",
+                "$1hellu"
+            ],
+            [
+                " (.*?)barð",
+                "$1barði"
+            ],
+            [
+                " (.*?)hólmi",
+                "$1hólma"
+            ],
+            [
+                " (.*?)skóli",
+                "$1skóla"
+            ],
+            [
+                " (.*?)þing",
+                "$1þingi"
+            ],
+            [
+                " (.*?)borgir",
+                "$1borgum"
+            ],
+            [
+                " (.*?)heimar",
+                "$1heimum"
+            ],
+            [
+                " (.*?)grandi",
+                "$1granda"
+            ],
+            [
+                " (.*?)alda",
+                "$1öldu"
+            ],
+            [
+                " (.*?)melur",
+                "$1mel"
+            ],
+            [
+                " (.*?)skógar",
+                "$1skógum"
+            ],
+            [
+                " (.*?)hamar",
+                "$1hamri"
+            ],
+            [
+                " (.*?)stekkur",
+                "$1stekk"
+            ],
+            [
+                " (.*?)hvoll",
+                "$1hvol"
+            ],
+            [
+                " (.*?)fjörður",
+                "$1firði"
+            ],
+            [
+                " (.*?)endi",
+                "$1enda"
+            ],
+            [
+                " (.*?)mói",
+                "$1móa"
+            ],
+            [
+                " (.*?)göng",
+                "$1göngum"
+            ],
+            [
+                " (.*?)sandur",
+                "$1sandi"
+            ],
+            [
+                " (.*?)völlur",
+                "$1velli"
+            ],
+            [
+                " (.*?)skálar",
+                "$1skálum"
+            ],
+            [
+                " (.*?)árbakkar",
+                "$1árbökkum"
+            ],
+            [
+                " (.*?)klettur",
+                "$1kletti"
+            ],
+            [
+                " (.*?)björg",
+                "$1björgum"
+            ],
+            [
+                " (.*?)lón",
+                "$1lóni"
+            ],
+            [
+                " (.*?)fjall",
+                "$1fjalli"
+            ],
+            [
+                " (.*?)dalir",
+                "$1dölum"
+            ],
+            [
+                " (.*?)hóp",
+                "$1hópi"
+            ],
+            [
+                " (.*?)skot",
+                "$1skoti"
+            ],
+            [
+                " (.*?)leira",
+                "$1leiru"
+            ],
+            [
+                " (.*?)sker",
+                "$1skeri"
+            ],
+            [
+                " (.*?)Reykir",
+                "$1Reykjum"
+            ],
+            [
+                " (.*?)Tunga",
+                "$1Tungu"
+            ],
+            [
+                " (.*?)árós",
+                "$1árósi"
+            ],
+            [
+                " (.*?)lönd",
+                "$1löndum"
+            ],
+            [
+                " (.*?)mót",
+                "$1móti"
+            ],
+            [
+                " (.*?)skáli",
+                "$1skála"
+            ],
+            [
+                " (.*?)hof",
+                "$1hofi"
+            ],
+            [
+                " (.*?)hylur",
+                "$1hyl"
+            ],
+            [
+                " (.*?)steinn",
+                "$1steini"
+            ],
+            [
+                " (.*?)vötn",
+                "$1vötnum"
+            ],
+            [
+                " (.*?)móar",
+                "$1móum"
+            ],
+            [
+                " (.*?)Hvammur",
+                "$1Hvammi"
+            ],
+            [
+                " (.*?)búðir",
+                "$1búðum"
+            ],
+            [
+                " (.*?)kelda",
+                "$1keldu"
+            ],
+            [
+                " (.*?)steinar",
+                "$1steinum"
+            ],
+            [
+                " (.*?)bryggja",
+                "$1bryggju"
+            ],
+            [
+                " (.*?)klif",
+                "$1klifi"
+            ],
+            [
+                " (.*?)Brekka",
+                "$1Brekku"
+            ],
+            [
+                " (.*?)Núpur",
+                "$1Núpi"
+            ],
+            [
+                " (.*?)skjól",
+                "$1skjóli"
+            ],
+            [
+                " (.*?)kambur",
+                "$1kambi"
+            ],
+            [
+                " (.*?)partur",
+                "$1parti"
+            ],
+            [
+                " (.*?)geisli",
+                "$1geisla"
+            ],
+            [
+                " (.*?)hellir",
+                "$1helli"
+            ],
+            [
+                " (.*?)stapi",
+                "$1stapa"
+            ],
+            [
+                " (.*?)blettur",
+                "$1bletti"
+            ],
+            [
+                " (.*?)fjara",
+                "$1fjöru"
+            ],
+            [
+                " (.*?)bú",
+                "$1búi"
+            ],
+            [
+                " (.*?)Sel",
+                "$1Seli"
+            ],
+            [
+                " (.*?)Dalur",
+                "$1Dal"
+            ],
+            [
+                " (.*?)Hraun",
+                "$1Hrauni"
+            ],
+            [
+                " (.*?)flatir",
+                "$1flötum"
+            ],
+            [
+                " (.*?)eyrar",
+                "$1eyrum"
+            ],
+            [
+                " (.*?)bali",
+                "$1bala"
+            ],
+            [
+                " (.*?)eyjar",
+                "$1eyjum"
+            ],
+            [
+                " (.*?)bak",
+                "$1baki"
+            ],
+            [
+                " (.*?)Ós",
+                "$1Ósi"
+            ],
+            [
+                " (.*?)grunn",
+                "$1grunni"
+            ],
+            [
+                " (.*?)reykir",
+                "$1reykjum"
+            ],
+            [
+                " (.*?)melar",
+                "$1melum"
+            ],
+            [
+                " (.*?)Hof",
+                "$1Hofi"
+            ],
+            [
+                " (.*?)Bakki",
+                "$1Bakka"
+            ],
+            [
+                " (.*?)kriki",
+                "$1krika"
+            ],
+            [
+                " (.*?)Hóll",
+                "$1Hóli"
+            ],
+            [
+                " (.*?)Tjarnir",
+                "$1Tjörnum"
+            ]
+        ],
+        "possessive": [
+            [
+                " (.*?)staðir",
+                "$1staða"
+            ],
+            [
+                " (.*?)holt",
+                "$1holts"
+            ],
+            [
+                " (.*?)vegur",
+                "$1vegar"
+            ],
+            [
+                " (.*?)gata",
+                "$1götu"
+            ],
+            [
+                " (.*?)braut",
+                "$1brautar"
+            ],
+            [
+                " (.*?)dalur",
+                "$1dals"
+            ],
+            [
+                " (.*?)nes",
+                "$1ness"
+            ],
+            [
+                " (.*?)sel",
+                "$1sels"
+            ],
+            [
+                " (.*?)gerði",
+                "$1gerðis"
+            ],
+            [
+                " (.*?)kot",
+                "$1kots"
+            ],
+            [
+                " (.*?)tún",
+                "$1túns"
+            ],
+            [
+                " (.*?)vellir",
+                "$1valla"
+            ],
+            [
+                " (.*?)fell",
+                "$1fells"
+            ],
+            [
+                " (.*?)land",
+                "$1lands"
+            ],
+            [
+                " (.*?)ás",
+                "$1áss"
+            ],
+            [
+                " (.*?)hlíð",
+                "$1hlíðar"
+            ],
+            [
+                " (.*?)bakki",
+                "$1bakka"
+            ],
+            [
+                " (.*?)kirkja",
+                "$1kirkju"
+            ],
+            [
+                " (.*?)hóll",
+                "$1hóls"
+            ],
+            [
+                " (.*?)stígur",
+                "$1stígs"
+            ],
+            [
+                " (.*?)hólar",
+                "$1hóla"
+            ],
+            [
+                " (.*?)á",
+                "$1ár"
+            ],
+            [
+                " (.*?)brekka",
+                "$1brekku"
+            ],
+            [
+                " (.*?)berg",
+                "$1bergs"
+            ],
+            [
+                " (.*?)hraun",
+                "$1hrauns"
+            ],
+            [
+                " (.*?)vík",
+                "$1víkur"
+            ],
+            [
+                " (.*?)gil",
+                "$1gils"
+            ],
+            [
+                " (.*?)ormstunga",
+                "$1ormstungu"
+            ],
+            [
+                " (.*?)bær",
+                "$1bæjar"
+            ],
+            [
+                " (.*?)lækur",
+                "$1lækjar"
+            ],
+            [
+                " (.*?)mýri",
+                "$1mýrar"
+            ],
+            [
+                " (.*?)hús",
+                "$1húss"
+            ],
+            [
+                " (.*?)byggð",
+                "$1byggðar"
+            ],
+            [
+                " (.*?)vatn",
+                "$1vatns"
+            ],
+            [
+                " (.*?)höfði",
+                "$1höfða"
+            ],
+            [
+                " (.*?)hagi",
+                "$1haga"
+            ],
+            [
+                " (.*?)hvammur",
+                "$1hvamms"
+            ],
+            [
+                " (.*?)lundur",
+                "$1lundar"
+            ],
+            [
+                " (.*?)teigur",
+                "$1teigs"
+            ],
+            [
+                " (.*?)flöt",
+                "$1flatar"
+            ],
+            [
+                " (.*?)tangi",
+                "$1tanga"
+            ],
+            [
+                " (.*?)heiði",
+                "$1heiðar"
+            ],
+            [
+                " (.*?)stræti",
+                "$1strætis"
+            ],
+            [
+                " (.*?)síða",
+                "$1síðu"
+            ],
+            [
+                " (.*?)eyri",
+                "$1eyrar"
+            ],
+            [
+                " (.*?)lind",
+                "$1lindar"
+            ],
+            [
+                " (.*?)garður",
+                "$1garðs"
+            ],
+            [
+                " (.*?)grund",
+                "$1grunds"
+            ],
+            [
+                " (.*?)sund",
+                "$1sunds"
+            ],
+            [
+                " (.*?)vogur",
+                "$1vogs"
+            ],
+            [
+                " (.*?)vað",
+                "$1vaðs"
+            ],
+            [
+                " (.*?)hvarf",
+                "$1hvarfs"
+            ],
+            [
+                " (.*?)borg",
+                "$1borgar"
+            ],
+            [
+                " (.*?)rimi",
+                "$1rima"
+            ],
+            [
+                " (.*?)salir",
+                "$1sala"
+            ],
+            [
+                " (.*?)hjáleiga",
+                "$1hjáleigu"
+            ],
+            [
+                " (.*?)ból",
+                "$1bóls"
+            ],
+            [
+                " (.*?)skógur",
+                "$1skógar"
+            ],
+            [
+                " (.*?)vangur",
+                "$1vangs"
+            ],
+            [
+                " (.*?)tröð",
+                "$1traðar"
+            ],
+            [
+                " (.*?)smári",
+                "$1smára"
+            ],
+            [
+                " (.*?)hamrar",
+                "$1hamra"
+            ],
+            [
+                " (.*?)garðar",
+                "$1garða"
+            ],
+            [
+                " (.*?)múli",
+                "$1múla"
+            ],
+            [
+                " (.*?)hæð",
+                "$1hæðar"
+            ],
+            [
+                " (.*?)hjalli",
+                "$1hjalla"
+            ],
+            [
+                " (.*?)vör",
+                "$1varar"
+            ],
+            [
+                " (.*?)torg",
+                "$1torgs"
+            ],
+            [
+                " (.*?)skarð",
+                "$1skarðs"
+            ],
+            [
+                " (.*?)brún",
+                "$1brúnar"
+            ],
+            [
+                " (.*?)tjörn",
+                "$1tjarnar"
+            ],
+            [
+                " (.*?)staður",
+                "$1staðar"
+            ],
+            [
+                " (.*?)horn",
+                "$1horns"
+            ],
+            [
+                " (.*?)hella",
+                "$1hellu"
+            ],
+            [
+                " (.*?)barð",
+                "$1barðs"
+            ],
+            [
+                " (.*?)búð",
+                "$1búðar"
+            ],
+            [
+                " (.*?)hólmi",
+                "$1hólma"
+            ],
+            [
+                " (.*?)skóli",
+                "$1skóla"
+            ],
+            [
+                " (.*?)ey",
+                "$1eyjar"
+            ],
+            [
+                " (.*?)slóð",
+                "$1slóðar"
+            ],
+            [
+                " (.*?)þing",
+                "$1þings"
+            ],
+            [
+                " (.*?)borgir",
+                "$1borga"
+            ],
+            [
+                " (.*?)heimar",
+                "$1heima"
+            ],
+            [
+                " (.*?)grandi",
+                "$1granda"
+            ],
+            [
+                " (.*?)mörk",
+                "$1markar"
+            ],
+            [
+                " (.*?)alda",
+                "$1öldu"
+            ],
+            [
+                " (.*?)melur",
+                "$1mels"
+            ],
+            [
+                " (.*?)skógar",
+                "$1skóga"
+            ],
+            [
+                " (.*?)hamar",
+                "$1hamars"
+            ],
+            [
+                " (.*?)strönd",
+                "$1strandar"
+            ],
+            [
+                " (.*?)kvísl",
+                "$1kvíslar"
+            ],
+            [
+                " (.*?)virkjun",
+                "$1virkjunar"
+            ],
+            [
+                " (.*?)stekkur",
+                "$1stekkjar"
+            ],
+            [
+                " (.*?)hvoll",
+                "$1hvols"
+            ],
+            [
+                " (.*?)fjörður",
+                "$1fjarðar"
+            ],
+            [
+                " (.*?)endi",
+                "$1enda"
+            ],
+            [
+                " (.*?)engi",
+                "$1engis"
+            ],
+            [
+                " (.*?)brú",
+                "$1brúar"
+            ],
+            [
+                " (.*?)fold",
+                "$1foldar"
+            ],
+            [
+                " (.*?)kinn",
+                "$1kinnar"
+            ],
+            [
+                " (.*?)mói",
+                "$1móa"
+            ],
+            [
+                " (.*?)göng",
+                "$1ganga"
+            ],
+            [
+                " (.*?)sandur",
+                "$1sands"
+            ],
+            [
+                " (.*?)völlur",
+                "$1vallar"
+            ],
+            [
+                " (.*?)kór",
+                "$1kórs"
+            ],
+            [
+                " (.*?)skálar",
+                "$1skála"
+            ],
+            [
+                " (.*?)árbakkar",
+                "$1árbakka"
+            ],
+            [
+                " (.*?)klettur",
+                "$1kletts"
+            ],
+            [
+                " (.*?)björg",
+                "$1bjarga"
+            ],
+            [
+                " (.*?)ver",
+                "$1vers"
+            ],
+            [
+                " (.*?)lón",
+                "$1lóns"
+            ],
+            [
+                " (.*?)fjall",
+                "$1fjalls"
+            ],
+            [
+                " (.*?)dalir",
+                "$1dala"
+            ],
+            [
+                " (.*?)hóp",
+                "$1hóps"
+            ],
+            [
+                " (.*?)höfn",
+                "$1hafnar"
+            ],
+            [
+                " (.*?)skot",
+                "$1skots"
+            ],
+            [
+                " (.*?)gróf",
+                "$1grófar"
+            ],
+            [
+                " (.*?)leira",
+                "$1leiru"
+            ],
+            [
+                " (.*?)sker",
+                "$1skers"
+            ],
+            [
+                " (.*?)Reykir",
+                "$1Reykja"
+            ],
+            [
+                " (.*?)Tunga",
+                "$1Tungu"
+            ],
+            [
+                " (.*?)leiti",
+                "$1leitis"
+            ],
+            [
+                " (.*?)árós",
+                "$1áróss"
+            ],
+            [
+                " (.*?)lönd",
+                "$1landa"
+            ],
+            [
+                " (.*?)mót",
+                "$1móts"
+            ],
+            [
+                " (.*?)skáli",
+                "$1skála"
+            ],
+            [
+                " (.*?)hof",
+                "$1hofs"
+            ],
+            [
+                " (.*?)hylur",
+                "$1hyls"
+            ],
+            [
+                " (.*?)laug",
+                "$1laugar"
+            ],
+            [
+                " (.*?)steinn",
+                "$1steins"
+            ],
+            [
+                " (.*?)Grund",
+                "$1Grundar"
+            ],
+            [
+                " (.*?)vötn",
+                "$1vatna"
+            ],
+            [
+                " (.*?)móar",
+                "$1móa"
+            ],
+            [
+                " (.*?)skeið",
+                "$1skeiðar"
+            ],
+            [
+                " (.*?)Hvammur",
+                "$1Hvamms"
+            ],
+            [
+                " (.*?)búðir",
+                "$1búða"
+            ],
+            [
+                " (.*?)leið",
+                "$1leiðar"
+            ],
+            [
+                " (.*?)kelda",
+                "$1keldu"
+            ],
+            [
+                " (.*?)steinar",
+                "$1steina"
+            ],
+            [
+                " (.*?)naust",
+                "$1naustar"
+            ],
+            [
+                " (.*?)bót",
+                "$1bótar"
+            ],
+            [
+                " (.*?)bryggja",
+                "$1bryggju"
+            ],
+            [
+                " (.*?)klif",
+                "$1klifs"
+            ],
+            [
+                " (.*?)Brekka",
+                "$1Brekku"
+            ],
+            [
+                " (.*?)Núpur",
+                "$1Núps"
+            ],
+            [
+                " (.*?)Vík",
+                "$1Víkur"
+            ],
+            [
+                " (.*?)skjól",
+                "$1skjóls"
+            ],
+            [
+                " (.*?)kambur",
+                "$1kambs"
+            ],
+            [
+                " (.*?)minni",
+                "$1minnis"
+            ],
+            [
+                " (.*?)partur",
+                "$1parts"
+            ],
+            [
+                " (.*?)geisli",
+                "$1geisla"
+            ],
+            [
+                " (.*?)hellir",
+                "$1hellis"
+            ],
+            [
+                " (.*?)stapi",
+                "$1stapa"
+            ],
+            [
+                " (.*?)blettur",
+                "$1bletts"
+            ],
+            [
+                " (.*?)fjara",
+                "$1fjöru"
+            ],
+            [
+                " (.*?)bú",
+                "$1bús"
+            ],
+            [
+                " (.*?)Sel",
+                "$1Sels"
+            ],
+            [
+                " (.*?)Dalur",
+                "$1Dals"
+            ],
+            [
+                " (.*?)Hraun",
+                "$1Hrauns"
+            ],
+            [
+                " (.*?)sæti",
+                "$1sætis"
+            ],
+            [
+                " (.*?)flatir",
+                "$1flata"
+            ],
+            [
+                " (.*?)eyrar",
+                "$1eyra"
+            ],
+            [
+                " (.*?)stétt",
+                "$1stéttar"
+            ],
+            [
+                " (.*?)bali",
+                "$1bala"
+            ],
+            [
+                " (.*?)eyjar",
+                "$1eyja"
+            ],
+            [
+                " (.*?)bak",
+                "$1baks"
+            ],
+            [
+                " (.*?)Ós",
+                "$1Óss"
+            ],
+            [
+                " (.*?)grunn",
+                "$1grunns"
+            ],
+            [
+                " (.*?)reykir",
+                "$1reykja"
+            ],
+            [
+                " (.*?)melar",
+                "$1mela"
+            ],
+            [
+                " (.*?)Borg",
+                "$1Borgar"
+            ],
+            [
+                " (.*?)Hof",
+                "$1Hofs"
+            ],
+            [
+                " (.*?)Bakki",
+                "$1Bakka"
+            ],
+            [
+                " (.*?)kriki",
+                "$1krika"
+            ],
+            [
+                " (.*?)Hóll",
+                "$1Hóls"
+            ],
+            [
+                " (.*?)Tjarnir",
+                "$1Tjarna"
+            ],
+            [
+                " (.*?)byrgi",
+                "$1byrgis"
+            ]
         ]
     }
 }
